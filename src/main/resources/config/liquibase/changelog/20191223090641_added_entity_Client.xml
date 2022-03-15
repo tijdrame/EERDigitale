@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    
+    <!--
+        Added the entity Client.
+    -->
+    <changeSet id="20191223090641-1" author="jhipster">
+        <createTable tableName="client">
+            <column name="id" type="bigint" autoIncrement="${autoIncrement}">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="cod_civil" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="nom" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="prenom" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="nom_mari" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="prenom_mari" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="nom_mere" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="prenom_mere" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="nom_pere" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="prenom_pere" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="date_naissance" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="dep_naissance" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="comm_naiss" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="pays_naiss" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="nation" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="sexe" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="situ" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="prof" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="langue" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="relation" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="identite" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="num_id" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="dat_livr" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="dat_valid" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="pay_id" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="comm_id" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="addr_1" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="addr_2" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="addr_3" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="addr_4" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="cod_cour" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="cod_post" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="mail" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="pays" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="dep_res" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="tel" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="tel_prof" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="tele_fax" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="agence" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="ncg" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="devise" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="code_exploitant" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="dat_cre" type="date">
+                <constraints nullable="true" />
+            </column>
+            <column name="pays_cpt" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="id_client" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <!-- jhipster-needle-liquibase-add-column - JHipster will add columns here, do not remove-->
+        </createTable>
+    </changeSet>
+
+    <changeSet id="20191223090641-1-relations" author="jhipster">
+
+    </changeSet>
+    <!-- jhipster-needle-liquibase-add-changeset - JHipster will add changesets here, do not remove-->
+
+    <!--
+        Load sample data generated with Faker.js
+        - This data can be easily edited using a CSV editor (or even MS Excel) and
+          is located in the 'src/main/resources/config/liquibase/fake-data' directory
+        - By default this data is applied when running with the JHipster 'dev' profile.
+          This can be customized by adding or removing 'faker' in the 'spring.liquibase.contexts'
+          Spring Boot configuration key.
+    -->
+    <changeSet id="20191223090641-1-data" author="jhipster" context="faker">
+        <loadData
+                  file="config/liquibase/fake-data/client.csv"
+                  separator=";"
+                  tableName="client">
+            <column name="id" type="numeric"/>
+            <column name="cod_civil" type="string"/>
+            <column name="nom" type="string"/>
+            <column name="prenom" type="string"/>
+            <column name="nom_mari" type="string"/>
+            <column name="prenom_mari" type="string"/>
+            <column name="nom_mere" type="string"/>
+            <column name="prenom_mere" type="string"/>
+            <column name="nom_pere" type="string"/>
+            <column name="prenom_pere" type="string"/>
+            <column name="date_naissance" type="date"/>
+            <column name="dep_naissance" type="string"/>
+            <column name="comm_naiss" type="string"/>
+            <column name="pays_naiss" type="string"/>
+            <column name="nation" type="string"/>
+            <column name="sexe" type="string"/>
+            <column name="situ" type="string"/>
+            <column name="prof" type="string"/>
+            <column name="langue" type="string"/>
+            <column name="relation" type="string"/>
+            <column name="identite" type="string"/>
+            <column name="num_id" type="string"/>
+            <column name="dat_livr" type="date"/>
+            <column name="dat_valid" type="date"/>
+            <column name="pay_id" type="string"/>
+            <column name="comm_id" type="string"/>
+            <column name="addr_1" type="string"/>
+            <column name="addr_2" type="string"/>
+            <column name="addr_3" type="string"/>
+            <column name="addr_4" type="string"/>
+            <column name="cod_cour" type="string"/>
+            <column name="cod_post" type="string"/>
+            <column name="mail" type="string"/>
+            <column name="pays" type="string"/>
+            <column name="dep_res" type="string"/>
+            <column name="tel" type="string"/>
+            <column name="tel_prof" type="string"/>
+            <column name="tele_fax" type="string"/>
+            <column name="agence" type="string"/>
+            <column name="ncg" type="string"/>
+            <column name="devise" type="string"/>
+            <column name="code_exploitant" type="string"/>
+            <column name="dat_cre" type="date"/>
+            <column name="pays_cpt" type="string"/>
+            <column name="id_client" type="string"/>
+            <!-- jhipster-needle-liquibase-add-loadcolumn - JHipster (and/or extensions) can add load columns here, do not remove-->
+        </loadData>
+    </changeSet>
+
+</databaseChangeLog>

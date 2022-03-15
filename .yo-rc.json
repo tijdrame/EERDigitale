@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.boa.aerd",
+      "nativeLanguage": "fr"
+    },
+    "jhipsterVersion": "6.5.1",
+    "applicationType": "monolith",
+    "baseName": "aerd",
+    "packageName": "com.boa.aerd",
+    "packageFolder": "com/boa/aerd",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "M2UxODMzOGY1NWNiZTg3ZGExNGQ2MTRjMTQwNDRkMDA5NzNkZTZhYmIwYWY5ZThlNzdhMmU1MjkxMzZhN2YzM2Q1ZWEwMDFiNWJjZDE0MDNmYTg1MTlmY2Y3ZWMwOGJmMzg5ODU2ZmMyOTgwMjYwNmU0ZmM2YjI5MzljMWJkYjE=",
+    "embeddableLaunchScript": false,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "fr",
+    "languages": ["fr"],
+    "blueprints": [],
+    "skipClient": true,
+    "lastLiquibaseTimestamp": 1594722700000
+  }
+}

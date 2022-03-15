@@ -1,0 +1,68 @@
+{
+  "fluentMethods": true,
+  "clientRootFolder": "",
+  "relationships": [],
+  "fields": [
+    {
+      "fieldName": "client",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "carteNo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "statusCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "statusLib",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "creationDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "countryCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "kafkaTopic",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "idCarteStatus",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "env",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "kafkaMessageKey",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "kafkaKey",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "kafkaTimestamp",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "kafka_carte_key",
+      "fieldType": "String"
+    }
+  ],
+  "changelogDate": "20200714103140",
+  "dto": "no",
+  "searchEngine": false,
+  "service": "serviceClass",
+  "entityTableName": "carte_status",
+  "databaseType": "sql",
+  "readOnly": false,
+  "jpaMetamodelFiltering": false,
+  "pagination": "no"
+}

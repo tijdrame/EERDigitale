@@ -1,0 +1,64 @@
+{
+  "fluentMethods": true,
+  "clientRootFolder": "",
+  "relationships": [],
+  "fields": [
+    {
+      "fieldName": "client",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "idp",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "statusCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "creationDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "countryCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "kafkaTopic",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "idClientSuspect",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "env",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "kafkaKey",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "kafkaTimestamp",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "kafkaClientKey",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    }
+  ],
+  "changelogDate": "20200714102622",
+  "dto": "no",
+  "searchEngine": false,
+  "service": "serviceClass",
+  "entityTableName": "person_susp",
+  "databaseType": "sql",
+  "readOnly": false,
+  "jpaMetamodelFiltering": false,
+  "pagination": "no"
+}

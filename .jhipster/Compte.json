@@ -1,0 +1,58 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "relationships": [
+        {
+            "relationshipName": "client",
+            "otherEntityName": "client",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "intituleCompte",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "cardType",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "producctId",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "agence",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "ncg",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "devise",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "codeExploitant",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "optValidation",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "datCre",
+            "fieldType": "Instant"
+        }
+    ],
+    "changelogDate": "20191226103836",
+    "dto": "no",
+    "searchEngine": false,
+    "service": "serviceClass",
+    "entityTableName": "compte",
+    "databaseType": "sql",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination"
+}

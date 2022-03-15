@@ -1,0 +1,191 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "codCivil",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "nom",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "prenom",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "nomMari",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "prenomMari",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "nomMere",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "prenomMere",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "nomPere",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "prenomPere",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "dateNaissance",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "depNaissance",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "commNaiss",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "paysNaiss",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "nation",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "sexe",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "situ",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "prof",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "langue",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "relation",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "identite",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "numId",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "datLivr",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "datValid",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "payId",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "commId",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "addr1",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "addr2",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "addr3",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "addr4",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "codCour",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "codPost",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "mail",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "pays",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "depRes",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "tel",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "telProf",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "teleFax",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "agence",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "ncg",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "devise",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "codeExploitant",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "datCre",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "paysCpt",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "idClient",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20191223090641",
+    "dto": "no",
+    "searchEngine": false,
+    "service": "serviceClass",
+    "entityTableName": "client",
+    "databaseType": "sql",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination"
+}
